@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        p{
+            color: blue !important;
+        }
+        .para-c{
+            color: orange;
+        }
+        #para-id{
+            color: cornflowerblue;
+        }
+    </style>  <!-- using !important is a bad practice-->
+    <!-- Priority: Element Selector < Class Selector < ID Selector < Inline CSS < !important -->
+    <!-- the more priority one will override the rest all -->
+</head>
+<body>
+    
+    <!-- Specificity -->
+    <p class="para-c" id="para-id" style="color: aqua;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga repellat quasi obcaecati magni aspernatur atque accusamus aut ex vel labore.</p>
+</body>
+</html>
